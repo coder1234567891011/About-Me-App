@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import "ng-zorro-antd/ng-zorro-antd.dark.css";
+
+section{
+    display:flex;
+    margin: 20px
+}
+
+.sidebar{
+    width: 20%;
+}

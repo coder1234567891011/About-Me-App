@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'About-Me-App';
+
+  handleClick(e: string): void {
+    console.log(e);
+  }
 }
