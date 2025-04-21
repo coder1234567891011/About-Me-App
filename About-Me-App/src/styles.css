@@ -1,11 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
-@import "ng-zorro-antd/ng-zorro-antd.dark.css";
 
-section{
+html,body{
+    background-image: url("assets/u2176359511_Lofi_internet_cafe_with_programmers_--ar_32_--v_6_b93df61b-0969-434c-867c-7826633c5271_3.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%!important
+}
+
+.main{
     display:flex;
     margin: 20px
 }
 
 .sidebar{
     width: 20%;
+}
+
+.ant-anchor-link-title {
+    color: white!important;   
+}
+
+.ant-anchor-link-active > .ant-anchor-link-title {
+    color: #1890ff!important;
 }

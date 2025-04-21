@@ -12,6 +12,8 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { provideHttpClient } from '@angular/common/http';
 import { NzAnchorModule } from 'ng-zorro-antd/anchor';
 import { MainContentComponent } from './components/main-content/main-content.component';
+import { NzLayoutModule } from 'ng-zorro-antd/layout';
+import { NzMenuModule } from 'ng-zorro-antd/menu';
 
 registerLocaleData(en);
 
@@ -23,8 +25,10 @@ registerLocaleData(en);
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    MainContentComponent,
     NzAnchorModule,
-    MainContentComponent
+    NzLayoutModule,
+    NzMenuModule,
   ],
   providers: [
     provideNzI18n(en_US),

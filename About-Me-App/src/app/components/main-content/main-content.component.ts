@@ -10,6 +10,7 @@ import { SkillsComponent } from '../skills/skills.component';
   imports: [AboutMeComponent, AchievementsAndCertsComponent, ExperienceComponent, InterestsComponent, SkillsComponent],
   templateUrl: './main-content.component.html',
   styleUrl: './main-content.component.css',
+  standalone: true
 })
 export class MainContentComponent {
 

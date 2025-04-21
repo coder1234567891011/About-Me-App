@@ -1,15 +1,17 @@
 import { Component } from '@angular/core';
+import { MainContentComponent } from './components/main-content/main-content.component';
+import { NzAnchorComponent, NzAnchorLinkComponent } from 'ng-zorro-antd/anchor';
 
 @Component({
-    selector: 'app-root',
-    templateUrl: './app.component.html',
-    styleUrls: ['./app.component.css'],
-    standalone: false
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css'],
+  standalone: false
 })
 export class AppComponent {
-  title = 'About-Me-App';
+  isCollapsed = false;
 
-  handleClick(e: string): void {
-    console.log(e);
+  handleClick(event:any){
+    console.log(event)
   }
 }
