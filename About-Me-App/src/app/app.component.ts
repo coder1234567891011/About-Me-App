@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { MainContentComponent } from './components/main-content/main-content.component';
-import { NzAnchorComponent, NzAnchorLinkComponent } from 'ng-zorro-antd/anchor';
 
 @Component({
   selector: 'app-root',

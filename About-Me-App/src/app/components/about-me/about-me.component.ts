@@ -8,15 +8,13 @@ import { NzCardModule } from 'ng-zorro-antd/card';
   styleUrl: './about-me.component.css'
 })
 export class AboutMeComponent {
-  age = new Date("1999-08-10T00:08:12")
+  age = new Date("1999-08-10T08:12:00")
   
   exactAge = 0
   exactExperience = null
 
   ngOnInit(){
-    setInterval(()=>{
       this.calculateAge()
-    }, 1000000000000)
   }
 
   calculateAge(){
